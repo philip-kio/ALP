@@ -1,0 +1,252 @@
+
+
+/* navigation bar in the html*/
+.nav_bar{
+    
+    width: 100%;
+    padding-bottom: 60px;
+    background-color: #0D2949;
+ 
+
+}
+
+/* links in the nav bar*/
+.hot_links{
+  
+    
+  
+    float: left;
+    padding-right: 10px;
+    text-decoration: none;
+    color: #F1F1F1;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 17px;
+    
+
+
+
+}
+.hot_links:hover{
+    background-color: #FFFFFF;
+    color:#007bb5;
+    font-size: 18px;
+    border-radius: 4px;
+}
+/* header*/
+header{
+    background-color: #355F97;
+   
+}
+/*div in header*/
+.header{
+    padding-top: 20px;
+    margin-left: 5em;
+    margin-right: 5em;
+   padding-bottom: 20px;
+    color: #f1f1f1;
+}
+*{
+margin: 0px;
+}
+
+/* horizontal divider*/
+hr.round{
+    border: 1px solid #355F97;
+    
+}
+hr.solid{
+    border:.5px solid #355F97;
+   
+}
+/* sections in the html*/
+.A_about{
+ padding-top: 30px;
+ padding-bottom: 10px;
+
+}
+/* sections with color blue in the html*/
+.A_about_blue{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color:#355F97;
+
+    
+   }
+/* images in the html*/
+.ambimage{
+    padding-top: 20px;
+    width: 20em;
+    min-width: 22em;
+    height: 22em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* heading tags in the html*/
+.heading{
+    text-align: center;
+    padding: 7px 0 7px 0;
+    font-size: 2.5em;
+    color: #3E5F98;
+
+}
+.heading-blue{
+    text-align: center;
+    padding: 7px 0 7px 0;
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
+/* div write up in the html page*/
+.body{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.more{
+    display: none;
+   
+}
+p.color{
+    padding-bottom: 20px;
+    color: #C6CEDA;
+}
+p{
+    padding-bottom: 20px;
+    color: #3460A0;
+    
+}
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border:2px solid #F1F1F1;
+    background-color:#315C93;
+    color: #f1f1f1;
+    outline: none;
+    transition-duration: 0.5s;
+    width: 150px;
+    }
+    
+
+
+.button:hover{
+    background-color:#f1f1f1;
+
+    color:#315C93 ;
+}
+
+
+.button-blue{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border:2px solid #315C93;
+    color: #315C93;
+    outline: none;
+    transition-duration: 0.5s;
+    width: 150px;
+
+    
+    }
+    
+
+
+.button-blue:hover{
+    background-color:#315C93 ;
+    color: #F1F1F1;
+
+    
+}
+footer{
+    padding-top: 14px;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+    
+
+footer .philip{
+    text-decoration: none;
+    color: #007bb5;
+   
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .ambimage{
+        padding-top: 20px;
+        width: 40%;
+        min-width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+
+    /* div write up in the html page*/
+.body{
+    display: block;
+   margin-left:70px;
+   margin-right: 70px;
+    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .ambimage{
+        padding-top: 20px;
+        width: 20em;
+        min-width: 22em;
+        height: 22em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .body{
+        margin-left: 8em;
+        margin-right: 8em;
+        text-align: justify;
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+}
